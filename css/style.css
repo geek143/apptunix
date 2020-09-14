@@ -316,12 +316,6 @@ h2
 .about .box:hover:after {
   opacity: 1;
 }
-
-.about .box.active svg .a
-{
-  fill:#fff;
-}
-
 .about .box:hover .btn
 {
   visibility: visible;
@@ -360,6 +354,11 @@ h2
 }
 
 .about .box:hover svg .a
+{
+  fill:#fff;
+}
+
+.about .box.active svg .a
 {
   fill:#fff;
 }
