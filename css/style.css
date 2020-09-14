@@ -307,6 +307,10 @@ h2
   z-index: 2;
 }
 
+.about .box:hover.active:after 
+{
+  display: none;
+}
 
 .push:hover{
   fill:url(#pushbtn2);
