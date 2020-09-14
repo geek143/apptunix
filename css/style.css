@@ -345,6 +345,12 @@ h2
   color:#fff;
 }
 
+.about .box:hover svg .a
+{
+  fill:#fff;
+}
+
+
 .about .box h3
 {
   color:#000;
