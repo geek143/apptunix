@@ -1,0 +1,54 @@
+@media screen and (max-width:768px)
+{
+    .about .box
+    {
+        padding: 25px 25px;
+    }
+}
+
+@media screen and (max-width:767px)
+{
+    .consluation .consluation-box h2 {
+        font-size: 24px;
+    }
+
+    .type-wrap {
+        font-size: 30px;
+    }
+
+    .homeslider #existing-text {
+        font-size: 32px;
+    }
+
+    .homeslider
+    {
+        text-align: center;
+    }
+
+    .homeslider h1
+    {
+        font-size: 32px;
+    }
+
+    .homeirghtbg
+    {
+        margin-top: 40px;
+    }
+
+    .adminpanel
+    {
+        background-image: none;
+    }
+
+    section.secpad.adminpanel.tutor
+    {
+        padding-top: 0;
+    }
+
+    .student .list-group,
+    .adminphone .list-group
+    {
+        margin-top: 20px;
+    }
+
+}
