@@ -307,10 +307,6 @@ h2
   z-index: 2;
 }
 
-.about .box:hover.active:after 
-{
-  display: none;
-}
 
 .push:hover{
   fill:url(#pushbtn2);
@@ -325,6 +321,10 @@ h2
   visibility: visible;
 }
 
+.about .box:hover.active:after 
+{
+  display: none;
+}
 .about .box.active
 {
   background:linear-gradient(205deg, rgba(254,41,131,1) 0%, rgba(255,111,97,1) 35%, rgba(252,158,33,1) 100%);
@@ -345,18 +345,17 @@ h2
   color:#fff;
 }
 
-.about .box:hover svg .a
-{
-  fill:#fff;
-}
-
-
 .about .box h3
 {
   color:#000;
   font-size: 14px;
   margin: 10px 0;
   text-transform: capitalize;
+}
+
+.about .box:hover svg .a
+{
+  fill:#fff;
 }
 
 .about .box .btn
